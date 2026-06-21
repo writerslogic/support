@@ -1,0 +1,8 @@
+name: Support request / feature
+description: Ask a question or request a feature
+labels: [support]
+body:
+  - type: textarea
+    id: details
+    attributes: { label: How can we help? }
+    validations: { required: true }
